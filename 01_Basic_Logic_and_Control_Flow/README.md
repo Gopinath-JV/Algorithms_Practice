@@ -46,4 +46,21 @@ The largest number among a, b, c
 
 
 
+---
+
+## Problem 02: Check whether a number is even or odd
+
+**Input:**  
+One integer a
+
+**Output:**  
+Indicates whether the number is even or odd
+
+**Algorithm:**
+1. Read integer a
+2. If a mod 2 = 0, print "Even"
+3. Else print "Odd"
+
+**Python File:**  
+`02_even_or_odd.py`
 
