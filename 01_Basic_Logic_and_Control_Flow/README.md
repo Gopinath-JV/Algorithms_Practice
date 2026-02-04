@@ -84,4 +84,28 @@ One integer a
 **Python File:**  
 `03_prime_or_not.py`
 
+---
+
+## Problem 04: Count digits in a number
+
+**Input:**  
+One integer a
+
+**Output:**  
+Number of digits in the given number
+
+**Algorithm:**
+1. Read integer a
+2. If a = 0, print 1 and stop
+3. Convert a to its absolute value
+4. Initialize count = 0
+5. While a > 0:
+   - Divide a by 10 using integer division
+   - Increment count by 1
+6. Print count
+
+**Python File:**  
+`04_count_digits.py`
+
+
 
