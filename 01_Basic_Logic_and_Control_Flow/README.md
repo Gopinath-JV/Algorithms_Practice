@@ -64,3 +64,24 @@ Indicates whether the number is even or odd
 **Python File:**  
 `02_even_or_odd.py`
 
+---
+
+## Problem 03: Check whether a number is prime
+
+**Input:**  
+One integer a
+
+**Output:**  
+"Prime" if the number is prime, otherwise "Not Prime"
+
+**Algorithm:**
+1. Read integer a
+2. If a < 2, print "Not Prime" and stop
+3. For each number i from 2 to √a (inclusive):
+   - If a mod i = 0, print "Not Prime" and stop
+4. If no divisor is found, print "Prime"
+
+**Python File:**  
+`03_prime_or_not.py`
+
+
