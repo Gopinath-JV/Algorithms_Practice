@@ -132,4 +132,29 @@ The reverse of the given number
 `05_reverse_the_number.py`
 
 
+## Problem 06: Check if a number is a palindrome
+
+**Input:**  
+One integer n
+
+**Output:**  
+Print whether the given number is a palindrome or not
+
+**Algorithm:**
+1. Read integer n  
+2. If n is negative, print "not a palindrome" and stop  
+3. If n is equal to 0, print "palindrome" and stop  
+4. Store the value of n in a temporary variable temp  
+5. Initialize reverse = 0  
+6. While temp > 0:  
+   - Extract the last digit using temp % 10  
+   - Update reverse = (reverse × 10) + digit  
+   - Divide temp by 10 using integer division  
+7. Compare reverse with the original number n  
+8. If both are equal, print "palindrome"; otherwise print "not a palindrome"  
+
+**Python File:**  
+`06_palindrome_or_not.py`
+
+
 
