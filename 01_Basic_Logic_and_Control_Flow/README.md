@@ -107,6 +107,8 @@ Number of digits in the given number
 **Python File:**  
 `04_count_digits.py`
 
+---
+
 ## Problem 05: Reverse the number
 
 **Input:**  
@@ -131,6 +133,7 @@ The reverse of the given number
 **Python File:**  
 `05_reverse_the_number.py`
 
+---
 
 ## Problem 06: Check if a number is a palindrome
 
@@ -156,6 +159,8 @@ Print whether the given number is a palindrome or not
 **Python File:**  
 `06_palindrome_or_not.py`
 
+---
+
 ## Problem 07: Compute factorial of a number
 
 **Input:**  
@@ -176,5 +181,29 @@ Factorial of the given number
 
 **Python File:**  
 `07_Factorial.py`
+
+---
+
+## Problem 08: Find sum of digits of a number
+
+**Input:**  
+One integer num
+
+**Output:**  
+Sum of the digits of the given number
+
+**Algorithm:**
+1. Read integer num  
+2. Convert num to its absolute value and store it in temp  
+3. Initialize sum_of_digits = 0  
+4. While temp > 0:  
+   - Extract the last digit using temp % 10  
+   - Add the digit to sum_of_digits  
+   - Divide temp by 10 using integer division  
+5. Print sum_of_digits  
+
+**Python File:**  
+`08_sum_of_digits.py`
+
 
 
