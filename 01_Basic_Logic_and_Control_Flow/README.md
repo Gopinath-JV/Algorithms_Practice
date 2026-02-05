@@ -156,5 +156,25 @@ Print whether the given number is a palindrome or not
 **Python File:**  
 `06_palindrome_or_not.py`
 
+## Problem 07: Compute factorial of a number
+
+**Input:**  
+One integer num
+
+**Output:**  
+Factorial of the given number
+
+**Algorithm:**
+1. Read integer num  
+2. If num is negative, print "Factorial is not defined" and stop  
+3. If num is equal to 0 or 1, print 1 and stop  
+4. Initialize factorial = 1  
+5. While num > 1:  
+   - Multiply factorial by num  
+   - Decrease num by 1  
+6. Print factorial  
+
+**Python File:**  
+`07_Factorial.py`
 
 
