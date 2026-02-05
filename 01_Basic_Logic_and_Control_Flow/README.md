@@ -107,5 +107,29 @@ Number of digits in the given number
 **Python File:**  
 `04_count_digits.py`
 
+## Problem 05: Reverse the number
+
+**Input:**  
+One integer n
+
+**Output:**  
+The reverse of the given number
+
+**Algorithm:**
+1. Read integer n  
+2. If n = 0, print 0 and stop  
+3. If n is negative, store sign = -1; otherwise store sign = 1  
+4. Convert n to its absolute value  
+5. Initialize reverse = 0  
+6. While n > 0:  
+   - Extract last digit using n % 10  
+   - Update reverse = (reverse × 10) + digit  
+   - Divide n by 10 using integer division  
+7. Multiply reverse by sign  
+8. Print reverse  
+
+**Python File:**  
+`05_reverse_the_number.py`
+
 
 
