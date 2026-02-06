@@ -231,4 +231,31 @@ Fibonacci numbers less than or equal to num
 **Python File:**  
 `09_fibbonacci_series_upto_n.py`
 
+---
 
+## Problem 10: Find GCD of two numbers
+
+**Input:**  
+Two integers num1 and num2
+
+**Output:**  
+Greatest Common Divisor (GCD) of the two given numbers
+
+**Algorithm:**
+1. Read integers num1 and num2  
+2. If both num1 and num2 are equal to 0, print that GCD cannot be defined and stop  
+3. If either num1 or num2 is 0:  
+   - Print the absolute value of the non-zero number as the GCD  
+   - Stop  
+4. Convert num1 and num2 to their absolute values and store them in temp1 and temp2  
+5. Assign dividend = maximum of temp1 and temp2  
+6. Assign divisor = minimum of temp1 and temp2  
+7. Initialize remainder = 1  
+8. While remainder is not equal to 0:  
+   - Compute remainder = dividend % divisor  
+   - Update dividend = divisor  
+   - Update divisor = remainder  
+9. When remainder becomes 0, print dividend as the GCD  
+
+**Python File:**  
+`10_gcd_of_two_num.py`
