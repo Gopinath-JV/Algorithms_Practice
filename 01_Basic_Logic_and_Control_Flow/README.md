@@ -205,5 +205,30 @@ Sum of the digits of the given number
 **Python File:**  
 `08_sum_of_digits.py`
 
+---
+
+## Problem 09: Generate Fibonacci series up to N
+
+**Input:**  
+One integer num
+
+**Output:**  
+Fibonacci numbers less than or equal to num
+
+**Algorithm:**
+1. Read integer num  
+2. If num is less than 0, print an error message and stop  
+3. Initialize first = 0  
+4. Initialize second = 1  
+5. Store num in a variable limit  
+6. While first is less than or equal to limit:  
+   - Print first  
+   - Compute next_num = first + second  
+   - Update first = second  
+   - Update second = next_num  
+7. Stop when first becomes greater than limit  
+
+**Python File:**  
+`09_fibbonacci_series_upto_n.py`
 
 
