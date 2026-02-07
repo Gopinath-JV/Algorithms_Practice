@@ -259,3 +259,32 @@ Greatest Common Divisor (GCD) of the two given numbers
 
 **Python File:**  
 `10_gcd_of_two_num.py`
+
+---
+
+## Problem 11: Find LCM of two numbers
+
+**Input:**  
+Two integers num1 and num2
+
+**Output:**  
+Least Common Multiple (LCM) of the two given numbers
+
+**Algorithm:**
+1. Read integers num1 and num2  
+2. If either num1 or num2 is equal to 0, print 0 as the LCM and stop  
+3. Convert num1 and num2 to their absolute values and store them in temp1 and temp2  
+4. Assign dividend = maximum of temp1 and temp2  
+5. Assign divisor = minimum of temp1 and temp2  
+6. Initialize remainder = 1  
+7. While remainder is not equal to 0:  
+   - Compute remainder = dividend % divisor  
+   - Update dividend = divisor  
+   - Update divisor = remainder  
+8. When remainder becomes 0, dividend contains the GCD  
+9. Compute lcm = (temp1 × temp2) divided by dividend using integer division  
+10. Print lcm  
+
+**Python File:**  
+`11_lcm_of_two_num.py`
+
