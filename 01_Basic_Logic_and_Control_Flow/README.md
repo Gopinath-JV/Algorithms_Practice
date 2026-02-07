@@ -288,3 +288,24 @@ Least Common Multiple (LCM) of the two given numbers
 **Python File:**  
 `11_lcm_of_two_num.py`
 
+---
+
+## Problem 12: Check if a year is a leap year
+
+**Input:**  
+One integer year
+
+**Output:**  
+Print whether the given year is a leap year or not
+
+**Algorithm:**
+1. Read integer year  
+2. If year is less than or equal to 0, print that the year is invalid and stop  
+3. If year is divisible by 400, print that it is a leap year  
+4. Else if year is divisible by 4 and not divisible by 100, print that it is a leap year  
+5. Otherwise, print that it is not a leap year  
+
+**Python File:**  
+`12_leap_year_or_not.py`
+
+
