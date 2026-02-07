@@ -10,9 +10,7 @@ Each problem includes a clear problem statement, algorithm, and Python solution.
 
 ---
 
-
-
-\## Problem 01: Find the Largest of Three Numbers
+## Problem 01: Find the Largest of Three Numbers
 
 
 
@@ -308,4 +306,26 @@ Print whether the given year is a leap year or not
 **Python File:**  
 `12_leap_year_or_not.py`
 
+---
+
+## Problem 13: Convert Celsius to Fahrenheit
+
+**Input:**  
+One floating-point number temp_in_celsius
+
+**Output:**  
+Temperature converted to Fahrenheit
+
+**Algorithm:**
+1. Read temperature value temp_in_celsius  
+2. Compute temp_in_fahrenheit using the formula:  
+   temp_in_fahrenheit = (temp_in_celsius × 1.8) + 32  
+3. If temp_in_celsius is less than -273.15:  
+   - Print that the value is below absolute zero and physically impossible  
+   - Print the theoretical temperature in Fahrenheit  
+4. Otherwise:  
+   - Print the temperature in Fahrenheit  
+
+**Python File:**  
+`13_convert_celsius_to_fahrenheit.py`
 
