@@ -329,3 +329,27 @@ Temperature converted to Fahrenheit
 **Python File:**  
 `13_convert_celsius_to_fahrenheit.py`
 
+---
+
+## Problem 14: Count vowels in a word
+
+**Input:**  
+One string word
+
+**Output:**  
+Total number of vowels in the given word
+
+**Algorithm:**
+1. Read string word  
+2. Initialize index = 0  
+3. Initialize count = 0  
+4. While index is less than the length of word:  
+   - Convert the character at position index to lowercase  
+   - If the character is one of 'a', 'e', 'i', 'o', or 'u':  
+     - Increment count by 1  
+   - Increment index by 1  
+5. Print count  
+
+**Python File:**  
+`14_count_vowels_in_a_string.py`
+
