@@ -399,4 +399,27 @@ Print whether the given string is a palindrome or not
 **Python File:**  
 `16_check_string_palindrome_or_not.py`
 
+---
+
+## Problem 17: Count words in a sentence
+
+**Input:**  
+One string sentence
+
+**Output:**  
+Total number of words in the given sentence
+
+**Algorithm:**
+1. Read string sentence  
+2. Initialize index = 0  
+3. Initialize count = 0  
+4. While index is less than length of sentence:  
+   - If sentence[index] is not a space AND  
+     (index is 0 OR sentence[index - 1] is a space):  
+       - Increment count by 1  
+   - Increment index by 1  
+5. Print count  
+
+**Python File:**  
+`17_count_words_in_sentence.py`
 
