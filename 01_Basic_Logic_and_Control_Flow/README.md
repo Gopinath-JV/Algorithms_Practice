@@ -353,3 +353,25 @@ Total number of vowels in the given word
 **Python File:**  
 `14_count_vowels_in_a_string.py`
 
+---
+
+## Problem 15: Reverse a string
+
+**Input:**  
+One string word
+
+**Output:**  
+Reverse of the given string
+
+**Algorithm:**
+1. Read string word  
+2. Initialize reverse as an empty string  
+3. Set word_index to length of word minus 1  
+4. While word_index is greater than or equal to 0:  
+   - Append the character at position word_index to reverse  
+   - Decrease word_index by 1  
+5. Print reverse  
+
+**Python File:**  
+`15_reverse_a_string.py`
+
