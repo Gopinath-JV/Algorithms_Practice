@@ -423,3 +423,29 @@ Total number of words in the given sentence
 **Python File:**  
 `17_count_words_in_sentence.py`
 
+---
+
+## Problem 18: Find the smallest element in an array
+
+**Input:**  
+A list of integers
+
+**Output:**  
+The smallest element in the array
+
+**Algorithm:**
+1. Read the array of integers  
+2. Find the length of the array  
+3. If length is 0, print "Array is empty" and stop  
+4. Assume the first element as the smallest  
+5. Set index = 1  
+6. While index is less than length:  
+   - If current element is smaller than the smallest  
+     - Update smallest with current element  
+   - Increase index by 1  
+7. Print the smallest element  
+
+**Python File:**  
+`18_find_smallest_element_in_an_array.py`
+
+
